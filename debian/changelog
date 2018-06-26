@@ -1,0 +1,5 @@
+nvidia-prime (0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Packages <packages@deepin.com>  Tue, 26 Jun 2018 19:55:58 +0800

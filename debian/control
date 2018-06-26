@@ -11,5 +11,5 @@ Homepage: https://www.deeppin.org
 Package: nvidia-prime
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: tools for nvidia
+ a tools for nvidia

@@ -1,4 +1,4 @@
-Source: nvidia-prime
+Source: deepin-nvidia-prime
 Section: devel
 Priority: optional
 Maintainer: Deepin <packages@deepin.com>
@@ -8,7 +8,7 @@ Homepage: https://www.deeppin.org
 #Vcs-Git: https://anonscm.debian.org/collab-maint/nvidia-prime.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/nvidia-prime.git
 
-Package: nvidia-prime
+Package: deepin-nvidia-prime
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, xserver-xorg-video-nvidia
 Description: Tool to support Nvidia Optimus

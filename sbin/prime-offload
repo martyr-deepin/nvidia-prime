@@ -61,9 +61,9 @@ output="$(xrandr --listproviders)"
 if [ "$use_randr_names" = true ]; then
     # Use the providers' names
     src=$(echo "$output" | grep " Source" | \
-          head -n1 | awk '{print $NF}' | cut -d: -f2)
+          head -n1 | awk -F' name:' '{print $2}')
     sink=$(echo -e "$output" | grep " Sink" | \
-           head -n1 | awk '{print $NF}' | cut -d: -f2)
+           head -n1 | awk -F' name:' '{print $2}')
 else
     # Use the providers' ids
     src=$(echo "$output" | grep " Source" | \

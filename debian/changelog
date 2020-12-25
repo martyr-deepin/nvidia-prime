@@ -1,3 +1,9 @@
+mgpu-prime (0.2.0) unstable; urgency=medium
+
+  * Try to compatible with AMD dGPU + Intel iGPU combination
+
+ -- SwimmingTiger <hu60.cn@qq.com>  Fri, 25 Dec 2020 17:01:51 +0800
+
 deepin-nvidia-prime (0.1-1) unstable; urgency=medium
 
   * Initial release

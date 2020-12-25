@@ -1,4 +1,4 @@
-Nvidia Prime
+Multi GPU Prime
 ===
 
-This project is forked from upstream nvidia-prime but tailored to be usable on deepin.
+Provide general solutions for multi-GPU platforms (especially laptops)

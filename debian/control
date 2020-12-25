@@ -1,15 +1,14 @@
-Source: deepin-nvidia-prime
+Source: mgpu-prime
 Section: devel
 Priority: optional
-Maintainer: Deepin <packages@deepin.com>
+Maintainer: SwimmingTiger <hu60.cn@qq.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.8
-Homepage: https://www.deeppin.org
-#Vcs-Git: https://anonscm.debian.org/collab-maint/nvidia-prime.git
-#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/nvidia-prime.git
+Homepage: https://github.com/YihaoPeng/mgpu-prime
+Vcs-Git: https://github.com/YihaoPeng/mgpu-prime.git
+Vcs-Browser: https://github.com/YihaoPeng/mgpu-prime
 
-Package: deepin-nvidia-prime
+Package: mgpu-prime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, xserver-xorg-video-nvidia
-Description: Tool to support Nvidia Optimus
- A tool to support Nvidia Optimus.
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Provide general solutions for multi-GPU platforms (especially laptops)
